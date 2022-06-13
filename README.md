@@ -21,7 +21,9 @@ Para salir del entorno virtual:
 ejecutar el comando **deactivate**.
 
 Contenidos:
-- create_data.py: funciones para obtener dataframes. 
-- utils.py: funciones para filtrar datos por condiciones.
+- data: carpeta con los dataframes.
+- funciones: carpeta con los siguientes archivos:
+    create_data.py: funciones para obtener dataframes. 
+    utils.py: funciones para filtrar datos por condiciones.
 - requeriments.txt. Librerías necesarias para la ejecución de los programas.
 - main.py. Ejercicios y consultas resueltos.
