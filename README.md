@@ -25,5 +25,6 @@ Contenidos:
 - funciones: carpeta con los siguientes archivos:
     create_data.py: funciones para obtener dataframes. 
     utils.py: funciones para filtrar datos por condiciones.
+- tests: carpeta con tests de comprobación de buen funcionamiento de las funciones.
 - requeriments.txt. Librerías necesarias para la ejecución de los programas.
 - main.py. Ejercicios y consultas resueltos.
