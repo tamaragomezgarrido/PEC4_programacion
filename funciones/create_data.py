@@ -102,8 +102,31 @@ def join_datasets_year(filepath: str, years: list):
     lista = []
 
     for year in years:
-        df = join_male_female(filepath, year)
-        lista.append(df)
+        if year == 2016:
+            y = '16'
+        elif year == 2017:
+            y = '17'
+        elif year == 2018:
+         y = '18'
+        elif year == 2019:
+            y = '19'
+        elif year == 2020:
+            y = '20'
+        elif year == 2021:
+            y = '21'
+        elif year == 2022:
+            y = '22'
+        else:
+            print('Error. Debe insertar un año entre 2016 y 2022')
+
+        female = pd.read_csv(filepath + '/' + 'female_players_' + y + '.csv')
+        male = pd.read_csv(filepath + '/' + 'players_' + y + '.csv')
+        female['gender'] = 'F'
+        male['gender'] = 'M'
+        female['year'] = year
+        male['year'] = year
+        join_df = pd.concat([female, male], sort=False)
+        lista.append(join_df)
 
     data_join = pd.concat(lista)
 
