@@ -3,7 +3,7 @@ Código para la PEC4 de la asignatura de programación para la ciencia de datos
 
 ### PEC4_Programación: Tamara Gómez
 
-Tras importar los archivos, el proyecto se puede ejecutar a través de un entorno virtual.  
+Tras importar los archivos, el proyecto se puede ejecutar a través de un entorno virtual, en python 3.  
 Se pueden copiar los archivos en la consola ejecutando en la terminal:
 gh repo clone tamaragomezgarrido/PEC4_programacion
 
